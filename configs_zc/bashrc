@@ -118,6 +118,7 @@ fi
 source /opt/ros/noetic/setup.bash
 source /home/chao/catkin_ws/devel/setup.bash
 
+## chao, press up to complete historical commands
 if [[ $- == *i* ]]
 then
         bind '"\e[A": history-search-backward'
