@@ -53,6 +53,9 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
+"add row number"
 set nu
+"set tab space to 4"
 set ts=4
+"synchronize system's and vim's clipboard"
 set clipboard^=unnamed,unnamedplus
