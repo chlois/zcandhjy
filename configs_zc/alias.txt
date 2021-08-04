@@ -1,0 +1,2 @@
+alias clean='rm *.out'
+alias gitst='git status'
